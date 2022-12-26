@@ -82,6 +82,19 @@ footer div a {
     border: solid var(--defColor) 1px;
 }
 
+.link-text {
+    padding: 5px;
+}
+
+.link-text-back {
+    padding: 5px;
+    max-width: 250px;
+}
+
+.link-container-01 {
+    max-width: 250px;
+}
+
 .description {
     font-family: var(--font);
     font-size: 12px;
@@ -161,7 +174,7 @@ footer div a {
 }
 
 .smallLink {
-    max-width: 250px;
+    max-width: 300px;
     padding: 5px !important;
 }
 
@@ -198,12 +211,25 @@ footer div a {
     border-radius: 10px;
     color: var(--defColor);
     border: solid yellow 1px;
+    margin-bottom: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
 
     .conttextlink {
-        max-width: 250px;
+        max-width: 300px;
+    }
+
+    .smallLink {
+        max-width: 300px;
+    }
+
+    .link-container-01 {
+        max-width: 300px;
+    }
+
+    .link-text-back {
+        max-width: 300px;
     }
 
 }
